@@ -252,7 +252,7 @@ a {
   padding-top: 40px; }
   @media (min-width: 1200px) {
     .t-clinic-locator {
-      background: url("../images/map.png") 10% 80% no-repeat, linear-gradient(45deg, #3E5CC5 0%, #5B8AF8 100%);
+      background: url("../../images/map.png") 10% 80% no-repeat, linear-gradient(45deg, #3E5CC5 0%, #5B8AF8 100%);
       padding-top: 200px; } }
   .t-clinic-locator__right {
     display: -webkit-box;
