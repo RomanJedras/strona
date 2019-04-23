@@ -1,0 +1,42 @@
+.c-heading {
+  color: $blue-text;
+  line-height: $line-height-sm;
+  margin-bottom: $grid-base / 2;
+
+  &--level {
+    font-size: $font-size-2;
+
+    @include large-up {
+      font-size: $font-size-1;
+    }
+  }
+
+  &--leve2 {
+    font-size: $font-size-3;
+
+    @include large-up {
+      font-size: $font-size-2;
+    }
+  }
+
+  &--leve3 {
+    font-size: $font-size-3;
+  }
+
+  &--leve4 {
+    font-size: $font-size-4;
+  }
+
+  &--leve5 {
+    font-size: $font-size-5;
+  }
+
+  &--upper {
+    text-transform: uppercase;
+  }
+
+  &--white {
+    color: $white;
+  }
+
+}

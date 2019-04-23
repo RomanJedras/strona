@@ -1,0 +1,60 @@
+.t-post-list {
+
+  background-color: $gray-light;
+  padding-top: $grid-base * 4;
+  position: relative;
+
+  @include large-up {
+    height: 380px;
+  }
+
+  &__content {
+    padding-bottom: $grid-base * 4;
+
+    @include large-up {
+      background-color: $gray-light;
+      clip-path: ellipse(68% 450px at 50% 0);
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: $grid-base * 8;
+      z-index: 1000;
+    }
+  }
+
+
+  &__item {
+    margin: 0 auto $grid-base * 4;
+    width: 349px;
+
+    @include large-up {
+      margin-bottom: $grid-base * 2;
+    }
+  }
+
+  &__image {
+    margin-bottom: $grid-base * 2.5;
+    max-width: 349px;
+    position: relative;
+  }
+
+  &__badge {
+    background: $blue-gradient;
+    border-radius: $border-radius 0 0 $border-radius;
+    color: $white;
+    font-size: $font-size-5;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    position: absolute;
+    top: 70%;
+    right: 80px;
+    text-transform: uppercase;
+
+    @include large-up {
+      right: 0;
+    }
+
+  }
+
+
+}

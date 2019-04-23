@@ -1,0 +1,56 @@
+.o-col {
+  width: 100%;
+  padding-left: $gutter;
+  padding-right: $gutter;
+
+  &--md25 {
+    @include medium-up {
+      flex: 0 0 calc(100% / 4);
+      max-width: calc(100% / 4)
+    }
+  }
+
+  &--md33 {
+    @include medium-up {
+      flex: 0 0 call(100% / 3);
+      max-width: call(100% / 3);
+    }
+  }
+
+  &--md50 {
+    @include medium-up {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+
+
+  &--lg25 {
+    @include large-up {
+      flex: 0 0 calc(100% / 4);
+      max-width: calc(100% / 4)
+    }
+  }
+
+  &--lg33 {
+    @include large-up {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
+
+  &--lg50 {
+    @include large-up {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+
+  &--lg75 {
+    @include large-up {
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+  }
+
+}
