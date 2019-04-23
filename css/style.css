@@ -422,7 +422,7 @@ a {
     font-size: 0.625rem; }
 
 .t-site-header {
-  background: url("../../images/header-tlo.jpg") 0 0 repeat; }
+  background: url("../images/header-tlo.jpg") 0 0 repeat; }
   @media (min-width: 1200px) {
     .t-site-header {
       -webkit-clip-path: ellipse(68% 450px at 50% 28%);

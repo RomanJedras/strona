@@ -87,4 +87,6 @@ gulpfile.js
 package-lock.json
 vendor/
 js/
+/.sass-cache
+.sass-cache
 
